@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCB noticias</title>
+    <style>
+        body {
+            background-color: rgb(233, 233, 233);
+        }
+        header {
+            color: aliceblue;
+            background-color: rgb(0, 0, 0);
+            margin-left: -8px;
+            margin-top: -23px;
+            margin-right: -10px;
+        }
+        #logo {
+            text-align: center;
+
+        }
+        a {
+            color: aliceblue;
+            text-decoration: none;
+            padding-left: 10px;
+            
+        }
+        a:hover {
+            color: rgb(255, 225, 0);
+            text-decoration:underline;
+        }
+        section {
+            background-color: rgb(255, 255, 255);
+            padding-left: 10px;
+            padding-bottom: 10px;
+            
+        }
+        footer {
+            background-color: black;
+            margin-top: 5%;
+            text-align: center;
+            margin-right: -10px;
+            margin-left: -10px;
+            
+        }
+        #fim {
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="logo">BCB notícias</h1>
+        <a href="https://www.google.com/search?q=tecnologia&oq=tecno&gs_lcrp=EgZjaHJvbWUqDwgAEAAYQxixAxiABBiKBTIPCAAQABhDGLEDGIAEGIoFMhUIARAuGEMYxwEYsQMY0QMYgAQYigUyBwgCEAAYgAQyBwgDEAAYgAQyCggEEAAYsQMYgAQyBwgFEAAYgAQyDQgGEC4YrwEYxwEYgAQyBggHEEUYPdIBCDM1NjFqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8">TECNOLOGIA</a>
+        <a href="https://www.google.com/search?q=agro&oq=agro&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIKCAIQABixAxiABDIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyBwgFEAAYgAQyBwgGEAAYgAQyDQgHEC4YrwEYxwEYgAQyBwgIEAAYgAQyDQgJEC4YrwEYxwEYgATSAQgyNDk3ajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8">AGRO</a>
+        <a href="https://www.google.com/search?q=ciencias&oq=cien&gs_lcrp=EgZjaHJvbWUqCggBEAAYsQMYgAQyBggAEEUYOTIKCAEQABixAxiABDIKCAIQABixAxiABDIMCAMQABgUGIcCGIAEMgoIBBAAGLEDGIAEMgcIBRAAGIAEMg0IBhAAGIMBGLEDGIAEMgoIBxAAGLEDGIAEMgcICBAAGI8CMgcICRAAGI8C0gEIMzM1MmowajmoAgiwAgE&sourceid=chrome&ie=UTF-8">CÍENCIA</a>
+        <a href="https://www.google.com/search?q=economia&sca_esv=6970a245c30c4668&sxsrf=ADLYWIL1MmsPJfigJw3eaebaovLoIkwPSg%3A1733853641186&ei=yYFYZ9qPC_ic5OUPiaSIiAo&oq=econo&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWVjb25vKgIIADITEAAYgAQYsQMYQxiDARjJAxiKBTIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyChAAGIAEGEMYigUyChAAGIAEGEMYigUyCxAAGIAEGJIDGIoFMgsQABiABBiSAxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIFEAAYgARIoBlQAFjdC3AAeAGQAQCYAc4BoAHKBqoBBTAuNC4xuAEByAEA-AEBmAIFoALhBsICChAjGIAEGCcYigXCAgQQIxgnwgIREC4YgAQYsQMY0QMYgwEYxwHCAhAQABiABBixAxiDARiKBRgKwgIEEAAYA8ICDhAAGIAEGLEDGIMBGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICDRAAGIAEGLEDGEMYigXCAgwQABiABBhDGIoFGArCAgsQABiABBixAxiDAZgDAJIHBTAuNC4xoAf-Ig&sclient=gws-wiz-serp">ECONOMIA</a>
+        <a href="https://www.google.com/search?q=usa&sca_esv=6970a245c30c4668&sxsrf=ADLYWILH-Z0NaXVtJ2u6Zqo2LaUSLB3QVg%3A1733853661352&ei=3YFYZ42ZFf2S5OUP1r_cyQY&ved=0ahUKEwjN-86c5J2KAxV9CbkGHdYfN2kQ4dUDCBA&uact=5&oq=usa&gs_lp=Egxnd3Mtd2l6LXNlcnAiA3VzYTIIEAAYgAQYsQMyDBAAGIAEGEMYigUYCjINEC4YgAQYsQMYQxiKBTIIEC4YgAQYsQMyCxAuGIAEGMcBGK8BMgoQABiABBhDGIoFMgsQLhiABBjHARivATIFEAAYgAQyBRAuGIAEMggQABiABBixA0jNFFAAWMYNcAF4AZABAJgBmwGgAdEEqgEDMC40uAEDyAEA-AEBmAIFoALnBMICChAjGIAEGCcYigXCAhEQLhiABBixAxjRAxiDARjHAcICCxAAGIAEGLEDGIMBwgIQEAAYgAQYsQMYQxiDARiKBcICEBAuGIAEGLEDGEMYgwEYigXCAg0QABiABBixAxhDGIoFwgIKEC4YgAQYQxiKBZgDAJIHAzEuNKAHuUI&sclient=gws-wiz-serp">USA</a>
+    </header>
+    <main>
+        <section>
+            <h1 id="titulo">Noticias sobre a SpaceX</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cum doloremque totam adipisci! Accusantium voluptatum deleniti fugit facilis hic eligendi. Repellendus fugiat vero natus quam! Repellendus similique officia sint rem?</p>
+        </section>
+        <section>
+            <h1 id="titulo">Noticia sobre Elon Musk</h1>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus fuga mollitia nulla explicabo repudiandae iusto provident assumenda iure architecto accusamus. Rerum quisquam iusto amet, provident sit impedit distinctio optio perferendis.</P>
+        </section>
+    </main>
+    <footer>
+    <h1 id="fim">BCB notícias</h1>
+    </footer>
+</body>
+</html>

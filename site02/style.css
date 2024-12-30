@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: rgb(201, 50, 50);
+    position: fixed;
+    width: 100%;
+    padding-bottom: 30px;
+}
+header > h1 {
+    color: white;
+    margin: 20px 0px 0px 20px;
+}
+header > nav {
+    transform: translateX(800px);
+    
+}
+header > nav > input {
+    padding: 10px 300px 10px 10px;
+    border-radius: 10px;
+}
+main {
+    padding: 150px 500px 0px 0px;
+    margin: 0px 500px 0px 0px;
+    
+}
+main > div {
+    padding: 10px 922px 0px 0px;
+    
+}
+main > div > p {
+    padding: 200px;
+    background-color: blueviolet;
+    
+}
+aside {
+    background-color: blue;
+    display: flex;
+    justify-content: end;
+    
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class</title>
+    <style>
+        body {
+            background-color: rgb(29, 23, 48);
+        }
+        div {
+            display: inline-block;
+            background-color: green;
+            border: 3px solid rgb(255, 204, 2);
+            width: 200px;
+            height: 200px;
+            text-align: center;
+        }
+        div#d1:hover {
+            background-color: rgb(225, 255, 0);
+            border: 5px solid red;
+        }
+        div#d2:hover {
+            background-color: rgb(255, 255, 255);
+            border: 5px solid rgb(0, 30, 255);
+        }
+        div#d3:hover {
+            background-color: rgb(255, 0, 217);
+            border: 5px solid rgb(170, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
