@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* ESTILO NA ORIZONTAL (LANDSCAPE)*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    background-color: rgb(43, 6, 69);
+    color: yellow;
+}
