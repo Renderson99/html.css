@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 30pt;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    div#celular { display: none;}
+    div#tablet {
+        display: block;
+        background-color: rgb(32, 192, 0);
+        padding: 60px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 30pt;
+        text-align: center;
+    }
+    #tablet:hover {
+        background-color: rgb(69, 133, 6);
+    }
+    div#pc {display: none;}
+}
+
+/* DESKTOP (PC)*/
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 50pt;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    div#celular {display: none;}
+    div#tablet {display: none;}
+    div#pc {
+        display: block;
+        background-color: rgb(184, 0, 0);
+        padding: 70px;
+        font-size: 40pt;
+        text-align: center;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    #pc:hover {
+        background-color: brown;
+    }
+
+}

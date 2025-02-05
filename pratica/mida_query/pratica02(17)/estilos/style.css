@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* OUTRAS CONFIGURAÇÕES
+CELULAR: 320px até 425px
+TABLET: 768px até 1000px
+DESKTOP: 1024px até 1440px
+*/
+
+ /* CELULAR(MOBILE) */
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+div#celular { 
+    background-color: rgb(20, 57, 220);
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    font-size: 20pt;
+}
+#celular:hover {
+    background-color: rgb(5, 5, 136);
+}
+div#tablet {display: none;}
+div#pc {display: none;}
