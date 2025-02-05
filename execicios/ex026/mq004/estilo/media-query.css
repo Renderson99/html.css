@@ -63,7 +63,7 @@ Grandes talas (TV): acima de 1200px
 
 }
 /* DESKTOP */
-@media screen and (min-width:) and (max-width: 1200px){
+@media screen and (min-width:992px) and (max-width: 1200px){
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -88,11 +88,7 @@ Grandes talas (TV): acima de 1200px
 /* GRANDES TELAS (TV) */
 @media screen and (min-width:1200px){
     dody {
-        background-image: url(../imagens/back-tv.jpg);
-    }
-
-    main {
-        width: 700px;
+        background-image: url(imagens/back-tv.jpg);
     }
 
     img#phone {
