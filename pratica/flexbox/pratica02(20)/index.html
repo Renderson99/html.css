@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratica de flexbox</title>
+    <style>
+        body {
+            background-color: rgb(21, 20, 20);
+            color: white;
+        }
+        div.conteiner1 {
+            background-color: lightblue;
+            text-align: center;
+            color: black;
+            display: flex;
+            flex-direction: row;
+        }
+        div.item1 {
+            background-color: rgb(102, 212, 249);
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        div.conteiner2 {
+            background-color: lightcoral;
+            text-align: center;
+            color: black;
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 10px;
+        }
+        div.item2 {
+            background-color: rgb(248, 83, 83);
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        div.conteiner3 {
+            background-color: rgb(33, 128, 33);
+            text-align: center;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        div.item3 {
+            background-color: limegreen;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 0px 50px 0px 50px;
+            
+        }
+        div.conteiner4 {
+            background-color: rgb(128, 96, 33);
+            text-align: center;
+            color: black;
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 10px;
+        }
+        div.item4 {
+            background-color: rgb(205, 153, 50);
+            border: 1px solid black;
+            padding: 10px;
+            margin: 0px 50px 0px 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>flex-direction: row</h1>
+    <div class="conteiner1">
+        <div class="item1">1</div>
+        <div class="item1">2</div>
+        <div class="item1">3</div>
+        <div class="item1">4</div>
+        <div class="item1">5</div>
+    </div>
+
+    <h1>flex-direction: row-reverse</h1>
+    <div class="conteiner2">
+        <div class="item2">1</div>
+        <div class="item2">2</div>
+        <div class="item2">3</div>
+        <div class="item2">4</div>
+        <div class="item2">5</div>
+    </div>
+
+    <h1>flex-direction: column</h1>
+    <div class="conteiner3">
+        <div class="item3">1</div>
+        <div class="item3">2</div>
+        <div class="item3">3</div>
+        <div class="item3">4</div>
+        <div class="item3">5</div>
+    </div>
+
+    <h1>flex-direction: column-reverse</h1>
+    <div class="conteiner4">
+        <div class="item4">1</div>
+        <div class="item4">2</div>
+        <div class="item4">3</div>
+        <div class="item4">4</div>
+        <div class="item4">5</div>
+    </div>
+</body>
+</html>
