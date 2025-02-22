@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+h1 {
+    color: white;
+}
+.caixa1 {
+    background-color: lightcoral;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.item1 {
+    background-color: rgb(228, 95, 54);
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.caixa2 {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    
+}
+.item2 {
+    background-color: rgb(249, 229, 46);
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.caixa3 {
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    
+}
+.item3 {
+    background-color: lightslategrey;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.caixa4 {
+    background-color: rgb(195, 245, 101);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}
+.item4 {
+    background-color: rgb(90, 235, 27);
+    border: 1px solid black;
+    padding: 20px;
+}
+.caixa5 {
+    background-color: rgb(101, 202, 245);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.item5 {
+    background-color: rgb(19, 95, 248);
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.caixa6 {
+    background-color: rgb(180, 101, 245);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+}
+.item6 {
+    background-color: rgb(187, 19, 248);
+    border: 1px solid black;
+    padding: 20px;
+}
