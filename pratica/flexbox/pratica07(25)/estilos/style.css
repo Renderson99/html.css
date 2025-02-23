@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17pt;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: rgb(198, 198, 198);
+    height: 60px;
+    width: 100vw;
+}
+
+header > h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main {
+    background-color: rgb(141, 141, 141);
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+
+div#menu {
+    background-color: rgb(31, 30, 30);
+    color: rgb(185, 185, 185);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 560px;
+    width: 70px;
+    text-align: center;
+}
+
+div#menu > p {
+    margin-top: 100px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(31, 30, 30);
+}
+
+div#principal {
+    background-color: rgb(31, 30, 30);
+    color: rgb(185, 185, 185);
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 60px;
+    width: 70px;
+    text-align: center;
+    flex
+    flex-flow: row nowrap;
+    justify-content: end;
+    
+}
+
+div#principal > p {
+    margin-top: 10px;
+    background-color: rgb(31, 30, 30);
+    color: rgb(31, 30, 30);
+}
