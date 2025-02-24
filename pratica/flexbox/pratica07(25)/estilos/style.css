@@ -22,37 +22,42 @@ header > h1 {
 
 main {
     background-color: rgb(0, 0, 0);
-    height: 90vh;
+    height: 80vh;
     width: 100vw;
     display: flex;
 }
 
-aside#menu {
+aside#menu, aside#principal, aside#secundario {
     display: flex;
-    flex-basis: 100px;
     margin: 10px;
     border-radius: 10px;
     background-color: rgb(18, 18, 18);
+    height: 570px;
+}
+
+aside.menu {
+    flex-basis: 100px;
     flex-shrink: 0;
     flex-grow: 0;
+    
 }
 
-aside#principal {
-    display: flex;
+aside.principal {
     flex-basis: 400px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: rgb(18, 18, 18);
     flex-shrink: 0;
     flex-grow: 1;
 }
 
-aside#secundario {
-    display: flex;
+aside.secundario {
     flex-basis: 170px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: rgb(18, 18, 18);
     flex-shrink: 1;
     flex-grow: 1;
+}
+
+aside.play {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    height: 75px;
+    background-color: rgb(12, 13, 12);
 }
