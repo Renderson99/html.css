@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        body {
+            background-color: rgb(19, 18, 18);
+            display: flex;
+            justify-content: center;
+            margin-top: 300px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        @keyframes pulo {
+            0% {
+                transform: scale(1) rotate(0deg);
+            }
+            50% {
+                transform: scale(2) rotate(0deg);
+            }
+            60% {
+                transform: scale(1) rotate(0deg);
+            }
+        }
+
+        div#btn {
+            background-color: white;
+            height: 40px;
+            width: 100px;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 10px;
+            transition: all 0.5s linear;
+            
+        }
+
+        div#btn:hover {
+            background-color: darkorange;
+            color: white;
+            animation: pulo 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div id="btn">clique aqui</div>
+</body>
+</html>
